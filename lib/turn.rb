@@ -26,6 +26,7 @@ end
 def move(board, index, mark)
   if valid_move?(board, index)
     board[index] = mark
+    return board
   end
 end
 
